@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+:root{
+    --VeryDarkCyan:hsl(192, 100%, 9%);
+    --VeryPaleBlue:hsl(207, 100%, 98%);
+    --Pink:hsl(322, 100%, 66%);
+    --yazi1700:'Poppins', sans-serif;
+    --yazi2400600700:'Open Sans', sans-serif;
+}
+.one{
+    height: 200px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 50 70 0 50;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    -padding: 50px 70px;
+    
+}
+.try{
+    width: 110px;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid var(--Pink);
+    border-radius: 100px;
+    color: var(--Pink);
+}
+.two,.seven{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.two h1,.ready{
+    font-size: 45px;
+    font-family: var(--yazi1700);
+    color: var(--VeryDarkCyan);
+    margin-bottom: 15px;
+}
+.two p{
+    text-align: center;
+    color: var(--VeryDarkCyan);
+    font-family: var(--yazi2400600700); 
+    font-size: 18px;
+}
+ 
+.get{
+    border: 1px solid transparent;
+    border-radius: 100px;
+    background-color: var(--Pink);
+    color: #ffffff;
+    font-family: var(--yazi2400600700);
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+    margin-bottom: 70px;
+
+}
+.two img{
+    width: 950px;
+}
+
+.three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 80px;   
+}
+.people{
+    font-size: 80px;
+    font-family: var(--yazi2400600700);
+    font-weight: 700;
+    color: var(--VeryDarkCyan);
+    margin: 10px 0px;
+}
+.letter{
+    align-items: center;
+    color:slategrey;
+    font-family: var(--yazi2400600700);
+    font-size: 22px;
+
+}
+.lettertwo{
+    margin-left: 45px;
+    
+}
+.four,.five,.six{
+    display: flex;
+    flex-direction: row;
+    justify-self: start;
+    background-repeat: no-repeat;
+    background-position: top,bottom;
+    background-size: 2000px;
+    margin-top: 140px;
+
+    
+}
+.photo1,.photo2,.photo3{
+    width: 500px;
+
+}
+.four1,.five2,.six1{
+    margin-left: 70px;
+    margin-top: 110px;
+    color: var(--VeryDarkCyan);
+
+}
+.grow,.flowing,.user{
+    font-family: var(--yazi1700);
+    font-size: 40px;
+}
+.p1,.p2,.p3{
+    font-size: 16px;
+    font-family: var(--yazi2400600700);
+
+}
+.photo1{
+    margin-left: 70px;
+}
+.five2{
+    margin-left: 70px;
+}
+.photo3{
+    margin-left: 70px;
+}
+.seven{
+   margin-bottom: 50px;
+}
+.f1{
+    background-image: url(images/bg-footer-top-desktop.svg);
+    background-repeat: no-repeat;
+    height: 200px;
+    background-position: bottom;
+
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-self: start;
+    background-color: #00252e; 
+    background-position: top;
+    background-size: 100vw;
+    height: 350px;
+    color: white;
+    font-family: var(--yazi2400600700);
+}
+
+.foot1{
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.foot2{
+    box-sizing: border-box;
+    width: 50%;
+    margin-top: 20px;
+
+}
+
+
+.big{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.five1{
+    padding: 0 50;
+}
+.bigfour{
+    height: 690px;
+    background-image: url(images/bg-section-top-desktop-1.svg),url(images/bg-section-bottom-desktop-1.svg);
+    background-repeat: no-repeat;
+    background-position: top,bottom;
+    border: 1px solid transparent;
+}
+.bigsix{
+    height: 655px;
+    background-image: url(images/bg-section-top-desktop-2.svg),url(images/bg-section-bottom-desktop-2.svg);
+    background-repeat: no-repeat;
+    background-position: top,bottom;
+    border: 1px solid transparent;
+}
+.four,.six{
+    background-color:#f6fbff;
+
+}
+.five{
+    margin: 50 0;
+}
+.p11{
+    font-weight: 400;
+    font-size: 22px;
+
+}
+.Subscribe{
+    border: 1px solid transparent;
+    border-radius: 3px;
+    color: white;
+    background-color:var(--Pink);
+    width: 120px;
+    height: 25px;
+    margin-left: 15px;
+    
+}
+.gmail{
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 180px;
+    height: 25px;
+}
+.phone,.email{
+    float: left;
+    
+}
+.p9,.p10{
+    margin-left: 35px;
+
+}
+
+
+
+
+
+
